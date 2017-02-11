@@ -1,12 +1,13 @@
 # What is this?
-
-> This is a react demo write for the [thinking-in-react](https://facebook.github.io/react/docs/thinking-in-react.html)
-
+A react app for Note
 
 ## Don't support 
 
 
 ## how to run
+
+use yarn instead of npm
+
 first
 ```
 $ yarn

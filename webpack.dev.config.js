@@ -65,5 +65,23 @@ module.exports = {
     }),
     new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.js')
   ],
-  devtool: 'eval-source-map'
+  devtool: 'eval-source-map',
+  devServer: {
+    stats: {
+      colors: true,
+      hash: false,
+      version: false,
+      timings: false,
+      assets: true,
+      chunks: false,
+      modules: false,
+      reasons: false,
+      children: false,
+      source: false,
+      errors: true,
+      errorDetails: false,
+      warnings: true,
+      publicPath: false
+    }
+  },
 };
