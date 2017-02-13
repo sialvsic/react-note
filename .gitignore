@@ -133,4 +133,3 @@ jspm_packages
 *.orig
 
 .idea/
-build/

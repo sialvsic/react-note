@@ -9,7 +9,7 @@ module.exports = {
     vendor: ['jquery']       //Array
   },
   output: {
-    path: path.resolve('./build'),
+    path: path.resolve('.'),
     filename: 'bundle.js'
   },
   resolve: {
