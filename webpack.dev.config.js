@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     jsx: './src/index.js',
     html: './src/index.html',
+    jpg: './src/images/sun.jpg',
     vendor: ['jquery']       //Array
   },
   output: {

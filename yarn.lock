@@ -4980,6 +4980,10 @@ react-dom@^15.4.0:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
 
+react-favicon@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-favicon/-/react-favicon-0.0.5.tgz#27baf21956040fe3e8b3a88bb8e97b833ba255ba"
+
 react-hot-api@^0.4.5:
   version "0.4.7"
   resolved "https://registry.yarnpkg.com/react-hot-api/-/react-hot-api-0.4.7.tgz#a7e22a56d252e11abd9366b61264cf4492c58171"

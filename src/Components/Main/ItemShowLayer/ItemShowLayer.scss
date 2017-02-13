@@ -1,0 +1,11 @@
+.ItemShowLayer {
+  border: 1px solid;
+  flex: 15;
+  overflow: auto;
+  .item-show {
+    height: 100%;
+    overflow: auto;
+    outline: 0;
+    white-space: pre-wrap;
+  }
+}
