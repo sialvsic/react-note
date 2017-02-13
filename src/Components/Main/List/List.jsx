@@ -9,7 +9,7 @@ const List = (props) => {
 
   const List = props.notes.map((item, key) => {
     return (
-      <div key={key} onClick={selected.bind(this, item)}>
+      <div className="list-item-wrap" key={key} onClick={selected.bind(this, item)}>
         <ListItem props={item}/>
       </div>
     );
