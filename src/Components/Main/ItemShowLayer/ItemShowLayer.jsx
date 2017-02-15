@@ -42,8 +42,7 @@ export default class ItemShowLayer extends Component {
     return (
       <div className="ItemShowLayer">
         <div ref="content" id="item-show" className="item-show" onClick={this.focus} onInput={::this.saveDate}
-             contentEditable={this.props.isEditing}
-             suppressContentEditableWarning={true}>
+             contentEditable={this.props.isEditing}>
         </div>
       </div>
     );
