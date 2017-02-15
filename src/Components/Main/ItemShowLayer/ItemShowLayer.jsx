@@ -8,12 +8,6 @@ export default class ItemShowLayer extends Component {
     this.focus = this.focus.bind(this);
   }
 
-  componentDidMount() {
-    this.refs.content.addEventListener('input', () => {
-      this.props.saveDraft(this.refs.content.innerText);
-    }, false);
-  }
-
   componentWillMount() {
     if (this.props.isEditing) {
       this.refs.content.focus();
@@ -36,15 +30,18 @@ export default class ItemShowLayer extends Component {
     }
   }
 
+  saveDate() {
+    this.props.saveDraft(this.refs.content.innerText);
+  }
+
   focus() {
     this.props.setFocus();
   }
 
   render() {
-
     return (
       <div className="ItemShowLayer">
-        <div ref="content" id="item-show" className="item-show" onClick={this.focus}
+        <div ref="content" id="item-show" className="item-show" onClick={this.focus} onInput={::this.saveDate}
              contentEditable={this.props.isEditing}
              suppressContentEditableWarning={true}>
         </div>
