@@ -1,8 +1,7 @@
 # What is this?
-A react app for Note
+A react simple app for Note
 
 ## Don't support 
-
 
 ## how to run
 
@@ -25,3 +24,8 @@ $ yarn build
 ```
 
 ## version
+2017.02.15 V1
+
+## showcase
+
+http://sialvsic.github.io/react-note/index.html
